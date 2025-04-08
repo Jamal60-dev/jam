@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jamal Loves You</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #ff0000;
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      text-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+    }
+
+    .heart {
+      font-size: 5rem;
+      animation: heartbeat 1.5s infinite;
+      color: red;
+      margin-top: 20px;
+    }
+
+    @keyframes heartbeat {
+      0% { transform: scale(1); }
+      25% { transform: scale(1.2); }
+      50% { transform: scale(1); }
+      75% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>Jamal loves you very much ❤️</h1>
+    <div class="heart">❤️</div>
+  </div>
+</body>
+</html>
